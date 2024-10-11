@@ -1,0 +1,63 @@
+:root {
+    --primery-color: #202020;
+    --secondary-color: #ffffff;
+    --bg-grey-color: #3C3C3C;
+    --bg-white-color: #FFFEF2;
+    --grey-color: #565656;
+    --black-color: #000000;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primery-color);
+}
+
+.title {
+    font-family: "DynaPuff", sans-serif;    
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+
+.section {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.container,
+.header__container {
+    display: block;
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+
+    @media screen and (max-width: 992px) {
+        max-width: 992px;
+    }
+
+    @media screen and (max-width: 768px) {
+        max-width: 768px;
+    }
+
+    @media screen and (max-width: 576px) {
+        max-width: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
