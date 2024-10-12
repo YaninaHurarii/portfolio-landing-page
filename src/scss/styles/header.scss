@@ -26,7 +26,7 @@
             background-color: var(--primery-color);
     }
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1199px) {
         justify-content: space-between;
         padding: 0 34px;
         max-width: 1200px;
@@ -49,7 +49,7 @@
             display: flex;
             gap: 20px;
     
-            @media screen and (max-width: 1200px) {
+            @media screen and (max-width: 1199px) {
                 display: none;
             }
         }
@@ -58,10 +58,6 @@
         padding: 10px 13px;
         border: 1px solid var(--secondary-color);
         border-radius: 20px;
-    
-        @media screen and (max-width: 1200px) {
-            border: none;
-        }
     }
 }
 
@@ -74,17 +70,13 @@
     border-radius: 20px;
     cursor: pointer;
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1199px) {
         display: block;
     }
 }
 
 .navbar__list-favicon {
     padding-right: 12px;
-
-    @media screen and (max-width: 1200px) {
-        display: none;
-    }
 }
 
 
@@ -97,7 +89,7 @@
     padding-top: 491px;
     padding-bottom: 119px;
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1199px) {
         padding-top: 273px;
         padding-bottom: 130px;
         margin-left: 20px;
