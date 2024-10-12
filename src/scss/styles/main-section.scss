@@ -408,12 +408,13 @@
     max-width: 1440px;
     width: 100%;
     border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+   
 }
 
 .about-design__container {
     padding-top: 303px;
     padding-bottom: 323px;
-    text-align: center;
+   
 
     @media screen and (max-width: 1199px) {
         padding-top: 274px;
@@ -433,6 +434,7 @@
     color: var(--secondary-color);
     max-width: 1059px;
     width: 100%;
+    text-align: center;
 
     @media screen and (max-width: 767px) {
         font-size: 24px;
