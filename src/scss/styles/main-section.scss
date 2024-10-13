@@ -7,12 +7,12 @@
     background-position: right;
     background-position-y: center;
 
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: $bp-tablet-bg) {
             background-position: right -32% bottom 50%;
             background-size: 47%;
         }
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: $bp-tablet) {
             background-position: right -80% bottom 50%;
             background-size: 60%;
         }
@@ -24,14 +24,13 @@
     max-width: 540px;
     width: 100%;
 
-        @media screen and (max-width: 1199px) {
+        @media screen and (max-width: $bp-tablet-bg) {
             padding: 72px 0;
             margin-left: 10px;
             max-height: 470px;
         }
 
-
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: $bp-tablet) {
             width: 320px;
             margin-left: 4px;
             max-height: 466px;
@@ -42,12 +41,12 @@
     color: #FAEB49;
     font-size: 48px;
 
-        @media screen and (max-width: 1199px) {
+        @media screen and (max-width: $bp-tablet-bg) {
             max-width: 521px;
             width: 100%;
         }
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: $bp-tablet) {
             max-width: 326px;
             width: 100%;
             font-size: 36px;
@@ -60,7 +59,7 @@
     max-width: 524px;
     width: 100%;
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: $bp-tablet) {
             font-size: 15px;
         }
 }
@@ -69,7 +68,7 @@
     display: flex;
     gap: 96px;
 
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: $bp-tablet) {
             gap: 42px;
         }
 }
@@ -87,7 +86,7 @@
             padding: 10px 0;
             margin-bottom: 5px;
     
-            @media screen and (max-width: 767px) {
+            @media screen and (max-width: $bp-tablet) {
                 font-size: 36px;
             }
         }
@@ -140,7 +139,7 @@
 .button-arrow__main-card {
     display: none;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         display: block;
         right: 20px;
         top: 20px;
@@ -151,7 +150,7 @@
     right: 20px;
     top: 20px;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         display: block;
         right: 10px;
         top: 10px;
@@ -167,7 +166,7 @@
     max-width: 1010px;
     min-height: 498px;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         background-size: contain auto;
         min-height: 278px;
     }
@@ -181,20 +180,20 @@
         border-radius: 13px;
         min-height: 338px;
     
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: $bp-mobile) {
             background-size: contain auto;
             max-height: 363px;
         }
 }
 
 .banking-mobile__card-small--one {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         display: none;
     }
 }
 
 .banking-mobile__card-small--three {
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         display: none;
     }
 }
@@ -207,7 +206,7 @@
     border-radius: 13px;
     min-height: 338px;
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: $bp-mobile) {
         background-size: contain auto;
         max-height: 363px;
     }
@@ -228,7 +227,7 @@
     font-size: 40px;
     margin: 21px 0;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         font-size: 32px;
     }
 
@@ -247,7 +246,7 @@
     max-width: 580px;
     width: 100%;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         max-width: 311px;
         width: 100%;
         font-size: 15px;
@@ -273,11 +272,11 @@
     padding-bottom: 38px;
     line-height: 1.2;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         padding-left: 10px;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         font-size: 36px;
         padding-top: 58px;
         padding-bottom: 28px;
@@ -287,7 +286,7 @@
 .graphics-design__cards-wrapper--activ-tablet {
     display: none;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         display: block;
         max-width: 100%;
         margin-bottom: 93px;
@@ -313,14 +312,14 @@
     padding-bottom: 138px;
 
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         grid-template: repeat(2, 1fr);
         column-gap: 34px;
         margin-bottom: 129px;
         padding: 0 10px;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         display: none;
         grid-template: repeat(1, 1fr);
     }
@@ -405,7 +404,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1440px;
+    max-width: $bp-base;
     width: 100%;
     border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
    
@@ -416,12 +415,12 @@
     padding-bottom: 323px;
    
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         padding-top: 274px;
         padding-bottom: 294px;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         padding-top: 180px;
         padding-bottom: 173px;
     }
@@ -436,7 +435,7 @@
     width: 100%;
     text-align: center;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         font-size: 24px;
         padding: 0 16px;
     }

@@ -2,7 +2,7 @@
 
 .header__container {
     background-image: radial-gradient(circle, rgb(249, 234, 75) 0%, rgba(255, 238, 50, 1) 0%, rgba(214, 214, 214, 1) 150%);
-    max-width: 1440px;
+    max-width: $bp-base;
     width: 100%;
 }
 
@@ -15,7 +15,7 @@
     z-index: 9;
     background-color: rgb(32, 32, 32, 0);
     height: 92px;
-    max-width: 1440px;
+    max-width: $bp-base;
     width: 100%;
     margin-top: 48px;
     gap: 220px;
@@ -25,14 +25,14 @@
         background-color: var(--primery-color);
     }
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         justify-content: space-between;
         padding: 0 34px;
-        max-width: 1199px;
+        max-width: $bp-tablet-bg;
         width: 100%;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         padding: 0 17px;
         width: 100%;
     }
@@ -48,7 +48,7 @@
         display: flex;
         gap: 20px;
 
-        @media screen and (max-width: 1199px) {
+        @media screen and (max-width: $bp-tablet-bg) {
             display: none;
         }
     }
@@ -70,7 +70,7 @@
     border-radius: 20px;
     cursor: pointer;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         display: block;
     }
 }
@@ -89,7 +89,7 @@
     padding-bottom: 119px;
     margin-left: 191px;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: $bp-tablet-bg) {
         padding-top: 273px;
         padding-bottom: 130px;
         margin-left: 34px;
@@ -97,7 +97,7 @@
         max-width: 521px;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: $bp-tablet) {
         max-width: 326px;
         padding-top: 412px;
         margin-left: 21px;
@@ -105,7 +105,7 @@
         padding-bottom: 150px;
     }
 
-     @media screen and (max-width: 375px) {
+     @media screen and (max-width: $bp-mobile) {
         font-size: 42px;
     }
 }
