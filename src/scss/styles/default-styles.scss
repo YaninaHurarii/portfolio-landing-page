@@ -1,5 +1,4 @@
 
-
 * {
     box-sizing: border-box;
 }
@@ -20,7 +19,6 @@ body {
     color: var(--secondary-color);
 }
 
-
 .section {
     max-width: $bp-base;
     width: 100%;
@@ -35,20 +33,6 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 12px;
-    
-
-    @media screen and (max-width: $bp-desktop) {
-        max-width: 992px;
-    }
-
-    @media screen and (max-width: $bp-tablet) {
-        max-width: 760px;
-    }
-
-    @media screen and (max-width: 576px) {
-        max-width: 100%;
-    }
-
 }
 
 a {
