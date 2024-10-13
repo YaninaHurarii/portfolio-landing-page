@@ -172,7 +172,7 @@
     }
 }
 
-.bg-image__card-1 {
+.bg-image__card-one {
     background-image: url('../img/bg-image-wing.jpg');
         background-size: cover;
         background-repeat: no-repeat;
@@ -186,19 +186,19 @@
         }
 }
 
-.banking-mobile__card-small--one {
+.banking-mobile__card-sm-one {
     @media screen and (max-width: $bp-tablet) {
         display: none;
     }
 }
 
-.banking-mobile__card-small--three {
+.banking-mobile__card-sm-three {
     @media screen and (max-width: $bp-tablet-bg) {
         display: none;
     }
 }
 
-.bg-image__card-2 {
+.bg-image__card-two {
     background-image: url('../img/bg-image-wall.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -212,7 +212,7 @@
     }
 }
 
-.bg-image__card-3 {
+.bg-image__card-three {
     background-image: url('../img/bg-image-ball.jpg');
     background-size: cover;
     background-repeat: no-repeat;
