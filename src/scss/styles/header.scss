@@ -18,7 +18,7 @@
     max-width: $bp-base;
     width: 100%;
     margin-top: 48px;
-    gap: 220px;
+    gap: 260px;
     margin-left: -12px;
 
     &:hover {
@@ -29,12 +29,11 @@
         justify-content: space-between;
         padding: 0 34px;
         max-width: $bp-tablet-bg;
-        width: 100%;
     }
 
     @media screen and (max-width: $bp-tablet) {
         padding: 0 17px;
-        width: 100%;
+        gap: 1%;
     }
   
 }

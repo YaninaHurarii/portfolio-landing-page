@@ -427,11 +427,11 @@
 }
 
 .about-design__title {
-    font-size: 46px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 1.2;
     color: var(--secondary-color);
-    max-width: 1059px;
+    max-width: $bp-desktop;
     width: 100%;
     text-align: center;
 
