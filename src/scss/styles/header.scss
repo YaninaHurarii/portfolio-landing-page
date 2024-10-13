@@ -9,7 +9,7 @@
 .header__container-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     position: fixed;
     top: 0;
     z-index: 9;
@@ -18,7 +18,7 @@
     max-width: 1440px;
     width: 100%;
     margin-top: 48px;
-    gap: 420px;
+    gap: 220px;
     margin-left: -12px;
 
     &:hover {
@@ -28,15 +28,15 @@
     @media screen and (max-width: 1199px) {
         justify-content: space-between;
         padding: 0 34px;
-        max-width: 1200px;
+        max-width: 1199px;
         width: 100%;
     }
 
     @media screen and (max-width: 767px) {
         padding: 0 17px;
         width: 100%;
-        gap: 170px;
     }
+  
 }
 
 .navbar {
@@ -79,8 +79,6 @@
     padding-right: 12px;
 }
 
-
-
 .header__title {
     font-size: 80px;
     line-height: 1.2;
@@ -95,13 +93,14 @@
         padding-top: 273px;
         padding-bottom: 130px;
         margin-left: 34px;
+        width: max-content;
+        max-width: 521px;
     }
 
     @media screen and (max-width: 767px) {
-        max-width: 521px;
-        width: 100%;
+        max-width: 326px;
         padding-top: 412px;
-        margin-left: 4px;
+        margin-left: 21px;
         font-size: 48px;
         padding-bottom: 150px;
     }
